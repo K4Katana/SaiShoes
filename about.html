@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaiShoes</title>
+     <!-- - favicon-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- - custom css link-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- - google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+   <!-- - preload banner-->
+   <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+<body id="top">
+
+    <!-------------HEADER---------------->
+    <header class="header" data-header>
+
+        <div class="container">
+            <div class="overlay" data-overlay></div>
+            
+
+            <a href="index.html" class="logo">
+                <h1 style="color: black;"><b style="color: red;">Sai</b>Shoes</h1>
+            </a>
+ 
+            <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+        
+
+            <nav class="navbar" data-navbar>
+                <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+          
+
+                <a href="index.html" class="logo">
+                    <h1 style="color: black;"><b style="color: red;">Sai</b>Shoes</h1>
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+            
+                    <li class="navbar-item">
+                        <a href="about.html" class="navbar-link">About</a>
+                    </li>
+            
+                    <li class="navbar-item">
+                        <a href="shop.html" class="navbar-link">Shoes</a>
+                    </li>
+            
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="nav-action-list">
+
+                    <li>
+                      <button class="nav-action-btn">
+                        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          
+                        <span class="nav-action-text">Search</span>
+                      </button>
+                    </li>
+          
+                    <li>
+                      <a href="#" class="nav-action-btn">
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          
+                        <span class="nav-action-text">Login / Register</span>
+                      </a>
+                    </li>
+          
+                    <li>
+                      <button class="nav-action-btn">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          
+                        <span class="nav-action-text">Wishlist</span>
+          
+                        <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+                      </button>
+                    </li>
+
+                    <li>
+                        <button class="nav-action-btn">
+                          <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+            
+                          <data class="nav-action-text" value="318.00">Basket: <strong>Ksh5400</strong></data>
+            
+                          <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+                        </button>
+                    </li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!------------END OF HEADER----------->
+
+    <!---------------------COLLECTION--------------------->
+    <section class="section collection">
+        <div class="container">
+
+            <h1 style="text-align: center; font-size: 60px;">Meet our Team</h1>
+            <ul class="collection-list has-scrollbar">
+                
+                <li>
+                    <div class="collection-card" style="background-image: url('./assets/images/crew2.jpg')">
+                        <h3 class="h4 card-title" style="color: aqua;">FOUNDER/CEO</h3>
+      
+                        <a href="shop.html" class="btn btn-secondary">
+                            <span>K4KATANA</span>
+                        </a>
+                    </div>
+                </li>
+      
+                <li>
+                    <div class="collection-card" style="background-image: url('./assets/images/crew1.jpg')">
+                        <h3 class="h4 card-title" style="color: aqua;">General Manager</h3>
+      
+                        <a href="shop.html" class="btn btn-secondary">
+                            <span>Poemcoder</span>
+                        </a>
+                    </div>
+                </li>
+      
+                <li>
+                    <div class="collection-card" style="background-image: url('./assets/images/crew.jpg')">
+                        <h3 class="h4 card-title" style="color: aqua;">Digital Marketer</h3>
+      
+                        <a href="shop.html" class="btn btn-secondary">
+                            <span>KSK</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+    <!---------------------FOOTER---------------------->
+<footer class="footer">
+    <div class="footer-top section">
+        <div class="container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <h1 style="color: black;"><b style="color: red;">Sai</b>shoes</h1>
+                </a>
+    
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                          <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="social-link">
+                          <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="social-link">
+                          <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="social-link">
+                          <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer-link-box">
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contact Us</p>
+                    </li>
+    
+                    <li>
+                        <address class="footer-link">
+                          <ion-icon name="location"></ion-icon>
+          
+                          <span class="footer-link-text">
+                             Diamond Plaza 2nd floor, Kenya
+                          </span>
+                        </address>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="call"></ion-icon>
+          
+                          <span class="footer-link-text">+254 7890123456</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="mail"></ion-icon>
+          
+                          <span class="footer-link-text">Saishoes@shoes.com</span>
+                        </a>
+                    </li>
+                </ul>
+    
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">My Account</p>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="chevron-forward-outline"></ion-icon>
+          
+                          <span class="footer-link-text">My Account</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="chevron-forward-outline"></ion-icon>
+          
+                          <span class="footer-link-text">View Cart</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="chevron-forward-outline"></ion-icon>
+          
+                          <span class="footer-link-text">Wishlist</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="chevron-forward-outline"></ion-icon>
+          
+                          <span class="footer-link-text">Compare</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">
+                          <ion-icon name="chevron-forward-outline"></ion-icon>
+          
+                          <span class="footer-link-text">New Products</span>
+                        </a>
+                    </li>
+                </ul>
+    
+                <div class="footer-list">
+                    <p class="footer-list-title">Opening Time</p>
+    
+                    <table class="footer-table">
+                        <tbody>
+                            <tr class="table-row">
+                                <th class="table-head" scope="row">Mon - Tue:</th>
+                                <td class="table-data">8AM - 11PM</td>
+                            </tr>
+    
+                            <tr class="table-row">
+                                <th class="table-head" scope="row">Wed:</th>
+              
+                                <td class="table-data">8AM - 7PM</td>
+                            </tr>
+    
+                            <tr class="table-row">
+                                <th class="table-head" scope="row">Fri:</th>
+              
+                                <td class="table-data">8AM - 12PM</td>
+                            </tr>
+    
+                            <tr class="table-row">
+                                <th class="table-head" scope="row">Sat:</th>
+              
+                                <td class="table-data">9AM - 8PM</td>
+                            </tr>
+    
+                            <tr class="table-row">
+                                <th class="table-head" scope="row">Sun:</th>
+              
+                                <td class="table-data">Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div class="footer-list">
+                    <p class="footer-list-title">
+                        Newsletter
+                    </p>
+    
+                    <p class="newsletter-text">
+                        Sign up for our weekly newsletter for more. 
+                    </p>
+    
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+          
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+    
+            <p class="copyright">
+                &copy; 2024 <a href="#" class="copyright-link">SAISHOES</a>. All Rights Reserved.
+            </p>
+    
+        </div>
+    </div>
+</footer>
+    
+    <!-------------GO TO TOP------------->
+    <a href="#top" class="go-top-btn" data-go-top>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    
+    <!-- - custom js link-->
+    <script src="./assets/js/script.js"></script>
+    
+    <!-- - ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
